@@ -1,0 +1,28 @@
+CRITERIA,AWS,Azure,GCP
+compute/VM,EC2,azure virtual machines,compute engine
+pricing,"on-demand, spot instances",pay as you go,"pay as you go, preemptible"
+LB/AS,elastic LB/AS,azure LB/AS,"cloud load balancer, instance groups"
+kubernees/docker,"ECS, EC2 container service, firecracker, fargate","azure kubernetes service, azure container instance","kubernetes engine, container registry"
+serverless,lambda,azure functions,cloud functions
+management monitoring and automation,"cloudwatch, cloudtrail, cloud formation","resource manager, cloudshell, azure monitor","cloud console, cloud shell, google stackdriver, cloud deployment manager"
+authentication/ authorization,"identity and access mangement, active directory",azure active directory,cloud identity and access mangement
+object based storage,"S3, simple storage service",object based blob storage,cloud storage buckets
+block based storage,"EBS, elastic block storage",storage disk page blobs,persistent disk
+file based storage,"elastic file system, FSx hybrid windows file storage","azure files, netapp files, filestore",cloud filestore
+archive storage,"S3 infrequent access, glacier",cool storage,nearline and coldline storage
+hybrid storage,storage gateway,"storsimple, databox",egnyte sync
+data encryption,EBS volume encryption ,bitlocker,encryption by default
+(bulk) data transfer options,"snowball, Rsync","Azure data box, AzCopy","cloud data transfer, transfer appliance"
+disaster recovery,"pilot light, warm standby",azure site recovery,google cloud disaster recovery planing guide
+database options,"SQL, MySQL, PostgreSQL, Oracle, MariaDB, DynamoDB, Neptune","SQL, MySQL, PostgreSQL, Cosmos, Table Storage, MariaDB","MySQL, PostgreSQL, cloud datastore, cloud bigtable, cloud spanner, yugabyte DB, firestore"
+data warehouse,"firehose, redshift, S3 data lake, athena, EMR, quicksight, elasticsearch","SQL data warehouse, HDinsight, data factory ","bigquery, cloud pub/sub, dataflow, dataproc, apache beam and airflow, composer, data studio, tensorflow"
+caching,elasticache (redis and memecached),rediscache,"cloud CDN, cloud memorystore"
+main protocol,"nice DCV, PCoIP, BLAST, ICA/HDX, putty, powershell","RDP, PCoIP/BLAST, ICA/HDX,  Putty","RDP, PCoIP, ICA/HDX,  frame remoting protocol, SSH, powershell"
+virtual network options,VPC,"VPN gateway, network peering","VPC, google cloud endpoints, cloud NAT, google cloud VPN"
+firewall options,"WAF, AWS shield,","WAF, azure firewall","cloud armor, firewall rules"
+content delivery network,cloudfront,content delivery network,"cloud interconnect, cloud CDN"
+dedicated private network,direct connect,express route,dedicated interconnect
+ping times from NL,ping 21,ping 15,ping 17
+DNS,route 53,"azure DNS, traffic manager",google cloud DNS
+region/zones,21 regions 60 Availability zones,54 regions,18 regions and 55 availiabily zones
+SLA,up to 99.95 for EC2,up to 99.95 for VM's,SLO up to 99.99 of VM's
